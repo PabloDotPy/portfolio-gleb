@@ -1,8 +1,10 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/Navbar';
+
 function App() {
   return (
-    <h1>Gleb's Portfolio</h1>
+    <Navbar />
   );
 }
 

@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
  :root{
   --primary-white: #fff;
@@ -8,7 +8,7 @@
 }
 
  body{
-   font-family: "Montserrat" Verdana;
+  font-family: 'Montserrat', sans-serif !important;
  }
 
  /*--------------  MENU LINKS  -----------------*/
@@ -78,7 +78,6 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: "Montserrat" Verdana; 
   z-index: 1;
 }
 
@@ -132,5 +131,34 @@ nav ul li {
 @media(max-width: 765px){
   .particles-canvas{
     display: none;
+  }
+}
+
+/*--------------   ABOUT ME SECTION  -----------------*/
+ 
+.photo-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img{
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  padding: .1rem;
+  border: 1px solid var(--primary-red);
+}
+
+.about-heading{
+  color: var(--primary-red);
+  text-transform: uppercase;
+}
+ 
+
+@media(max-width: 468px){
+  .profile-img{
+    width: 15rem;
+    height: 15rem;
   }
 }

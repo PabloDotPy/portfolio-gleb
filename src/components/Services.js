@@ -4,7 +4,8 @@ import { faApple, faTiktok, faInstagram } from "@fortawesome/free-brands-svg-ico
 
 const Services = () => {
     return (
-        <div className="services">
+        <div id="services" className="services">
+           <a name="services"></a>
             <h1 className="py-5">My Services</h1>
             <div className="container">
                 <div className="row">

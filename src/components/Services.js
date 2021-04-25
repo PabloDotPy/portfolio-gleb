@@ -1,6 +1,6 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faApple, faTiktok, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import React from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faApple, faTiktok, faInstagram } from "@fortawesome/free-brands-svg-icons"
 
 const Services = () => {
     return (

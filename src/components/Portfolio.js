@@ -19,16 +19,24 @@ const Portfolio = () => {
     const openPopupboxFirst = () => {
         const content = (
             <>
-                <img className="portfolio-img-popupbox" src={img1} alt="First Project"></img>
+                <img className="portfolio-img-popupbox" src={img1} alt="First Project" />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
-                <b>Source:</b> <a className="hyper-link" onClick={() => window.open("https://www.youtube.com/watch?v=0LcPN79Qmss&ab_channel=MCKREKER")}>https://www.youtube.com/watch?v=0LcPN79Qmss&ab_channel=MCKREKER</a>
+                <b>Source:</b> <a className="hyper-link" onClick={() => window.open("https://www.youtube.com/watch?v=0LcPN79Qmss&ab_channel=MCKREKER", "_blank")}>https://www.youtube.com/watch?v=0LcPN79Qmss&ab_channel=MCKREKER</a>
             </>
         )
 
         PopupboxManager.open({ content })
+        PopupboxManager.update({
+            content,
+            config: {
+              titleBar: {
+                text: "First adobe photoshop project",
+              },
+            },
+          });
     }
 
     const popupboxConfigFirst = {
@@ -44,16 +52,24 @@ const Portfolio = () => {
     const openPopupboxSecond = () => {
         const content = (
             <>
-                <img className="portfolio-img-popupbox" src={img2} alt="Second Project"></img>
+                <img className="portfolio-img-popupbox" src={img2} alt="Second Project" />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        </p>
-                <b>Source:</b> <a className="hyper-link" onClick={() => window.open("https://www.youtube.com/watch?v=KCz1FOeCOq8&ab_channel=%D0%9C%D0%B5%D0%BC%D0%BD%D0%B0%D1%8F%D0%9F%D0%B0%D0%BF%D0%BA%D0%B0")}>https://www.youtube.com/watch?v=KCz1FOeCOq8&ab_channel=%D0%9C%D0%B5%D0%BC%D0%BD%D0%B0%D1%8F%D0%9F%D0%B0%D0%BF%D0%BA%D0%B0</a>
+                </p>
+                <b>Source:</b> <a className="hyper-link" onClick={() => window.open("https://www.youtube.com/watch?v=KCz1FOeCOq8&ab_channel=%D0%9C%D0%B5%D0%BC%D0%BD%D0%B0%D1%8F%D0%9F%D0%B0%D0%BF%D0%BA%D0%B0", "_blank")}>https://www.youtube.com/watch?v=KCz1FOeCOq8&ab_channel=%D0%9C%D0%B5%D0%BC%D0%BD%D0%B0%D1%8F%D0%9F%D0%B0%D0%BF%D0%BA%D0%B0</a>
             </>
         )
 
         PopupboxManager.open({ content })
+        PopupboxManager.update({
+            content,
+            config: {
+              titleBar: {
+                text: "Second adobe photoshop project",
+              },
+            },
+          });
     }
 
     const popupboxConfigSecond = {
@@ -69,7 +85,7 @@ const Portfolio = () => {
     const openPopupboxThird = () => {
         const content = (
             <>
-                <img className="portfolio-img-popupbox" src={img3} alt="Third Project"></img>
+                <img className="portfolio-img-popupbox" src={img3} alt="Third Project" />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -79,6 +95,14 @@ const Portfolio = () => {
         )
 
         PopupboxManager.open({ content })
+        PopupboxManager.update({
+            content,
+            config: {
+              titleBar: {
+                text: "Third animation photoshop project",
+              },
+            },
+          });
     }
 
     const popupboxConfigThird = {
@@ -94,16 +118,24 @@ const Portfolio = () => {
     const openPopupboxFourth = () => {
         const content = (
             <>
-                <img className="portfolio-img-popupbox" src={img6} alt="Fourth Project"></img>
+                <img className="portfolio-img-popupbox" src={img6} alt="Fourth Project" />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
-                <b>Source:</b> <a className="hyper-link" onClick={() => window.open("https://www.youtube.com/watch?v=0LcPN79Qmss&ab_channel=MCKREKER")}>https://www.youtube.com/watch?v=0LcPN79Qmss&ab_channel=MCKREKER</a>
+                <b>Source:</b> <a className="hyper-link" onClick={() => window.open("https://www.youtube.com/watch?v=0LcPN79Qmss&ab_channel=MCKREKER", "_blank")}>https://www.youtube.com/watch?v=0LcPN79Qmss&ab_channel=MCKREKER</a>
             </>
         )
 
         PopupboxManager.open({ content })
+        PopupboxManager.update({
+            content,
+            config: {
+              titleBar: {
+                text: "Fourth realizm hand-made project",
+              },
+            },
+          });
     }
 
     const popupboxConfigFourth = {

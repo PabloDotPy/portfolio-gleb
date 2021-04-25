@@ -52,7 +52,7 @@ nav ul li {
   }
   }
     
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus{
   border-bottom: 0.1875rem solid var(--primary-red);
 }
 
@@ -369,6 +369,10 @@ nav ul li {
   cursor: pointer;
 }
 
+.popupbox-wrapper{
+  margin-top: 4.5rem;
+}
+
 /*--------------   POPUPBOX   -----------------*/
 .portfolio-img-popupbox{
   width: 45rem;
@@ -502,9 +506,38 @@ input.form-control, textarea.form-control{
   .contacts .container{
     padding: 0 1rem;
   }
-
+  
   .contacts p{
     padding: 0 0.4rem;
   }
 }
 
+/*-----------------   FOOTER    --------------------*/
+.footer{
+  background: var(--primary--black);
+  color:var(--primary--dark-gray);
+  padding: 3rem;
+}
+
+.footer a{
+  text-decoration: none;
+  color:var(--primary--dark-gray)
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color: var(--primary-red);
+  cursor: pointer;
+}
+
+.footer p{
+  margin-bottom: 0;
+}
+
+/************* MEDIA *************/
+
+@media(max-width: 998px){
+  .copy-rights{
+    align-items: center;
+  }
+}
